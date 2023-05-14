@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    background-color: whitesmoke;
+    position: fixed;left: 0px;right: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    line-height: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+    padding: 10px;
+}
+div .A{
+    height: 50px;
+}
+div .B{
+    text-align: right;
+}
+header{
+    background-image: url(adelekite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 650px;
+}
+header div{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: xx-large;
+    padding-top: 250px;
+}
+header div button{
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.C{
+    background-color: navy;
+    color: white;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    line-height: 25px;
+}
+.D{
+    background-color: goldenrod;
+    color: white;
+    width: 200px;
+    height: 350px;
+    margin-top: -25px;
+    padding: 15px;
+    line-height: 25px;
+}
+.E{
+    background-color: navy;
+    color: white;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    line-height: 25px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.alignright{
+    background-image: url(adelekite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5px 90px 5px 450px;
+}
+.F{
+    text-decoration: none;
+    color: blue;
+}
+.G{
+    text-decoration: none;
+
+    color: blue;
+}
+.H{
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: blue;
+    opacity: 0.6;
+    border-color: white;
+}
+.large{
+    font-size: 50px;
+    text-align: center;
+}
+.I{
+    width: 200px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.J{
+    font-size: 15px;
+    color: silver;
+}
+.K{
+    width: 300px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.anotherflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.L{
+    color: navy;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.margin{
+    margin-right: 80px;
+}
+.M{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.N{
+    color: gray;
+    line-height: 20px;
+}
+.aligncenter{
+    background-image: url(images\ \(2\).jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    line-height: 50px;
+}
+.O{
+    color: white;
+    background-color: navy;
+    padding: 15px 20px 15px 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.P{
+    font-weight: 700;
+    font-size: 50px;
+}
+.flexagain{
+    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+    font-size: smaller;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.white{
+    color: white;
+}
+.ab{
+    color: blue;
+    font-size: large;
+}
+.ac{
+    text-decoration: none;
+    color: white;
+    list-style: circle;
+}
+.padding{
+    padding: 350px 600px 350px 600px;
+}
+@media (max-width: 800px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    div .A {
+        width: 45px;
+    }
+    div .B{
+        text-align: right;
+    }
+    header{
+        background-image: url(images.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        height: 650px;
+    }
+    header div{
+        text-align: center;
+        font-weight: 900;
+        color: white;
+        font-size: xx-large;
+        padding-top: 250px;
+    }
+    header div button{
+        padding: 15px;
+        color: white;
+        background-color: blue;
+        border: 0;
+        font-weight: 800;
+        font-family: sans-serif;
+    }
+    .C{
+        background-color: navy;
+        color: white;
+        width: 200px;
+        height: 300px;
+        padding: 15px;
+        line-height: 25px;
+    }
+    .D{
+        background-color: goldenrod;
+        color: white;
+        width: 200px;
+        height: 350px;
+        margin-top: -25px;
+        padding: 15px;
+        line-height: 25px;
+    }
+    .E{
+        background-color: navy;
+        color: white;
+        width: 200px;
+        height: 300px;
+        padding: 15px;
+        line-height: 25px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .alignright{
+        background-image: url(images\ \(2\).jpg);
+        background-repeat:no-repeat;
+        background-size:cover ;
+        color: white;
+        padding: 5px 90px 5px 450px;
+    }
+    .F{
+        text-decoration: none;
+        color: blue;
+    }
+    .G{
+        text-decoration: none;
+    
+        color: blue;
+    }
+    .H{
+        padding: 15px 20px 15px 20px;
+        color: white;
+        background-color: blue;
+        opacity: 0.6;
+        border-color: white;
+    }
+    .large{
+        font-size: 50px;
+        text-align: center;
+    }
+    .I{
+        width: 200px;
+        padding: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .J{
+        font-size: 15px;
+        color: silver;
+    }
+    .K{
+        width: 300px;
+        padding: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .anotherflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-right: 40px;
+    }
+    .L{
+        color: navy;
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .margin{
+        margin-left: 110px;
+        margin-right: 80px;
+    }
+    .M{
+        color: navy;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 45px;
+    }
+    .N{
+        color: gray;
+        line-height: 30px;
+    }
+    .aligncenter{
+        background-image: url(images.jpg);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding-top: 10 c0px;
+        line-height: 50px;
+    }
+    .O{
+        color: white;
+        background-color: navy;
+        padding: 15px 20px 15px 20px;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .P{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .flexagain{
+        background-color: navy;
+        display: flex;
+        justify-content: space-around;
+        font-size: smaller;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .white{
+        color: white;
+    }
+    .ab{
+        color: blue;
+        font-size: large;
+    }
+    .ac{
+        text-decoration: none;
+        color: white;
+        list-style: circle;
+    }
+    .padding{
+        padding: 25px 60px 25px 60px;
+    }
+}
